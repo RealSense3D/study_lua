@@ -1,3 +1,6 @@
+-- Lua 默认只有一种 number 类型 
+-- double（双精度）类型（默认类型可以修改 luaconf.h 里的定义）
+
 print(type(2))
 print(type(2.2))
 print(type(0.2))
